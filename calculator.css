@@ -1,0 +1,53 @@
+.calc-box
+{
+    height: 200px;
+    width: 350px;
+    background-color: blue;
+    margin: 200px 50px 200px 550px;
+    position: fixed;
+    border-radius: 20px;
+}
+
+.inner
+{
+    display: block;
+    margin: 20px;
+}
+
+#a1
+{
+    margin: 5px;
+    width: 150px;
+}
+#a2
+{
+    width: 150px;
+}
+
+header{
+    align-items: center;
+}
+
+
+
+#add
+{
+    margin: 0px 0px 0px 70px;
+    padding: 2px 10px ;
+}
+
+#sub
+{
+    
+    padding: 2px 10px ;
+}
+#mul
+{
+    
+    padding: 2px 10px ;
+}
+#div
+{
+    
+    padding: 2px 10px ;
+}

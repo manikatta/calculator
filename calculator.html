@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<link rel="stylesheet" href="calculator.css">
+<body>
+    <div class="calc-box">
+        <div class="inner">
+            <label for="">A1:</label><input     id="a1" type="text"  placeholder="enter first value"><br>
+            <label for="">A2:</label> <input      id="a2" type="text" placeholder="enter second value">
+        </div>
+     
+
+        <header>
+            <button onclick="add()" id="add">+</button>
+            <button  onclick="sub()" id="sub">-</button>
+            <button onclick="mul()"  id="mul">*</button>
+            <button  onclick="div()" id="div">/</button>
+            
+        </header>
+        <h3 id="h" style="text-align: center;">result displayed here</h3>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
